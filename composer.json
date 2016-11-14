@@ -1,0 +1,16 @@
+{
+  "name": "zanderwar/silverstripe-lazyrendered",
+  "description": "A wrapper to help create standalone module interfaces in the SilverStripe framework",
+  "type": "silverstripe-module",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe","dev","developer","tools"],
+  "require": {
+    "silverstripe/framework": "~3.1"
+  },
+  "extra": {
+    "installer-name": "lazyrendered"
+  },
+  "suggest": {
+    "bummzack/silverstripe-omnipay-ui": "Adds UI Components to manage payments in the SilverStripe CMS."
+  }
+}
